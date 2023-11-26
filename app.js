@@ -19,7 +19,7 @@ store.on('error', function(error) {
 });
 
 app.use(session({
-  secret: process.env.SESSION_SECRET,
+  secret: 8502646425,
   name: 'mongo-blog-session',
   cookie: {
     maxAge: 1000 * 60 * 60 * 24 * 7, // 1 week
